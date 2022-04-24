@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.mainicon{
+    align-self: flex-start;
+    margin-left: 30px;
+}
+.mainicon img{
+    width: 150px;
+    
+    
+}
+.signcard{
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 350px;
+    height: 380px;
+    border-radius: 10px;
+    align-self: center;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 200px;
+    align-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.mainh{
+    margin-top: -50px;
+}
+.mainh h1 {
+    font-size: 2.3rem;
+     line-height: 1.25;
+     font-weight: 600;
+     color: rgba(0,0,0,0.9);
+     padding: 0 0 4px 0;
+}
+.secondaryh{
+    width: 400px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+.secondaryh h4{
+    font-size: 1rem;
+line-height: 1.42857;
+font-weight: 400;
+color: rgba(0,0,0,0.9);
+
+}
+.signcard form h5{
+    
+    width: 290px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color: #0a66c2;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.signcard form input{
+
+    width: 280px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+input::placeholder{
+
+    font-size: 1.1rem;
+    padding:10px;
+}
+
+.submitbtn{
+    background-color: #0a66c2;
+}
+.line{
+    margin-left: 140px;
+    position: relative;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 1px;
+    background-color: black;
+    top: 10px;
+    left: -120px;
+
+}
+.line::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background-color: black;
+    top: 10px;
+    right: -85px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+.footericon img{
+    width: 100px;
+    margin-right: 10px;
+    
+}
+.copyrights{
+    margin-top: 22px;
+    
+}
+.copyrights p {
+    margin-left: 5px;
+}
+.footerlinks{
+    margin-top: 22px;
+}
+.footerlinks a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}

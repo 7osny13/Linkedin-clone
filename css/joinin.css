@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.main{
+    background-color: white;
+
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.mainicon img{
+    width: 150px;
+    
+}
+
+.mainhead h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    word-spacing: 5px;
+    
+}
+
+.joincard{
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 350px;
+    border-radius: 10px;
+    background-color:rgb(231, 227, 227);
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 200px;
+    align-content: center;
+
+}
+.joincard form label{
+    font-size: 0.7rem;
+    
+    font-weight: 300;
+    margin-left: 25px;
+
+}
+
+.joincard form input{
+    margin-bottom: 10px;
+    width: 280px;
+    height: 25px;
+    border-radius: 10px;
+    /* background-color:rgb(240, 240, 240) ; */
+    margin-left: 25px;
+}
+
+.joincard form h5{
+    font-size: 0.79rem;
+    width: 290px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.joincard form h5 span {
+    color: #0a66c2;
+}
+.submitbtn{
+    background-color: #0a66c2;
+    height: 80px;
+    border-radius: 30px;
+    width: 100%;
+    margin-left: 25px ;
+    margin-top: 10px;
+
+}
+.googlebtn{
+    background-color: #0a66c2;
+    height: 80px;
+    border-radius: 30px;
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.line{
+    margin-left: 150px;
+    position: relative;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    top: 10px;
+    left: -110px;
+
+}
+.line::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background-color: black;
+    top: 10px;
+    right: -100px;
+}
+.gethelp h3{
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+footer{
+    display: flex;
+    
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+.footericon img{
+    width: 100px;
+    margin-right: 10px;
+    
+}
+.copyrights{
+    margin-top: 22px;
+    
+}
+.copyrights p {
+    margin-left: 5px;
+}
+.footerlinks{
+    margin-top: 22px;
+}
+.footerlinks a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+

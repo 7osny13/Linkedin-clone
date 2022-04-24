@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    
+}
+
+main{
+
+    width: 100vh;
+    
+}
+
+
+.header{
+
+    width: 100%;
+    height: 100px;
+}
+.mainicon{
+    width: 130px;
+    height: fit-content;
+    margin-left: 70px;
+    margin-top: 5px;
+    float: left;
+}
+
+.links{
+    float: left;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 40px;
+    margin-left: 420px;
+    
+}
+
+.links a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgba(0,0,0,0.6);
+    
+}
+
+
+.buttons{
+    
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.buttons a {
+   
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+  
+
+}
+
+.joinbtn{
+    color: rgb(0, 0, 0);
+}
+
+.joinbtn :hover{
+    color: #8344cc;
+   
+
+}
+
+.signbtn{
+    color: #0a66c2;
+    padding: 10px;
+    border: 1px solid #0a66c2;
+    border-radius: 25px;
+}
+
+
+
+
+.maintext{
+    margin-top:100px ;
+    margin-left: 33px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.maintext h1{
+    
+    color: #8f5849;
+    line-height: 1.2;
+    font-size: 56px;
+    font-weight: 200;
+}
+
+.bodylinks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    
+    
+    
+    
+}
+.bodylinks :hover{
+    color: #8344cc;
+    
+}
+.bodylinks a {
+    
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0,0.08);
+    border-radius: 10px;
+    font-weight: 600;
+    color:black ;
+    
+    
+}
+
+
+
+
+
+
+
+
